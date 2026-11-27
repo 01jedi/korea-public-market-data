@@ -1,6 +1,12 @@
 name: Manual Korean public market acceptance
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/manual-request.json']
+concurrency:
+  group: public-market-manual-refresh
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
