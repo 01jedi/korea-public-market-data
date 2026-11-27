@@ -1,0 +1,33 @@
+{
+  "cloud_run_id": "45989178162",
+  "source_ref": "4eebd015f6947d10b343160fb993e271a485b63a",
+  "cloud_korea_collection_pass": true,
+  "anonymous_http_download_pass": true,
+  "work_web_read_pass": true,
+  "ordinary_chat_web_read_pass": false,
+  "ordinary_chat_web_error": "Cache miss",
+  "ordinary_chat_github_read_pass": true,
+  "ordinary_chat_github_tools": [
+    "fetch_file",
+    "fetch_blob"
+  ],
+  "original_automation_call_acceptance": false,
+  "samples": [
+    {
+      "dataset": "upbit_CT_5m",
+      "time_utc": "2026-11-24T11:15:00+00:00",
+      "close": 165,
+      "quote_volume": 17373454.5347154,
+      "quote": "KRW"
+    },
+    {
+      "dataset": "bithumb_BIGTIME_1m",
+      "time_utc": "2026-11-24T11:18:00+00:00",
+      "close": 5.455,
+      "quote_volume": 3667997.048606,
+      "quote": "KRW"
+    }
+  ],
+  "samples_matched_downloaded_cloud_evidence": true,
+  "note": "Consumer test occurred after the cloud acceptance snapshot. This receipt supplements, not rewrites, the original snapshot. Manual historical snapshot, not continuous real-time service."
+}
