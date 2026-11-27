@@ -1,49 +1,72 @@
 {
+  "aggregation_checks": [
+    {
+      "dataset": "upbit_CT",
+      "mismatches": 0
+    },
+    {
+      "dataset": "upbit_BIGTIME",
+      "mismatches": 0
+    },
+    {
+      "dataset": "bithumb_CT",
+      "mismatches": 0
+    },
+    {
+      "dataset": "bithumb_BIGTIME",
+      "mismatches": 0
+    }
+  ],
   "korea_public_api_acceptance": true,
   "execution_host": {
     "system": "Linux",
     "github_actions": true,
-    "run_id": "45988446355"
+    "run_id": "45989178162"
   },
-  "start_utc": "2026-11-24T11:10:00+00:00",
-  "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+  "start_utc": "2026-11-24T11:15:00+00:00",
+  "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
   "datasets": [
     {
       "dataset": "upbit_CT_1m",
-      "rows": 2391,
-      "missing_slots": 1929,
+      "rows": 2392,
+      "missing_slots": 1928,
+      "availability": "available",
       "same_full_window_twice": true,
       "transport_pass": true,
-      "quote_volume_sum": 7670197490.247145
+      "quote_volume_sum": 7674323715.7094145
     },
     {
       "dataset": "upbit_CT_5m",
       "rows": 811,
       "missing_slots": 53,
+      "availability": "available",
       "same_full_window_twice": true,
       "transport_pass": true,
-      "quote_volume_sum": 7670197490.247145
+      "quote_volume_sum": 7674323715.7094145
     },
     {
       "dataset": "upbit_BIGTIME_1m",
       "rows": 3909,
       "missing_slots": 411,
+      "availability": "available",
       "same_full_window_twice": true,
       "transport_pass": true,
-      "quote_volume_sum": 190994540938.26883
+      "quote_volume_sum": 191061928806.15668
     },
     {
       "dataset": "upbit_BIGTIME_5m",
       "rows": 857,
       "missing_slots": 7,
+      "availability": "available",
       "same_full_window_twice": true,
       "transport_pass": true,
-      "quote_volume_sum": 190994540938.26883
+      "quote_volume_sum": 191061928806.15668
     },
     {
       "dataset": "bithumb_CT_1m",
       "rows": 1503,
       "missing_slots": 2817,
+      "availability": "available",
       "same_full_window_twice": true,
       "transport_pass": true,
       "quote_volume_sum": 2255673976.2422285
@@ -52,73 +75,82 @@
       "dataset": "bithumb_CT_5m",
       "rows": 691,
       "missing_slots": 173,
+      "availability": "available",
       "same_full_window_twice": true,
       "transport_pass": true,
       "quote_volume_sum": 2255673976.2422285
     },
     {
       "dataset": "bithumb_BIGTIME_1m",
-      "rows": 3141,
-      "missing_slots": 1179,
+      "rows": 3145,
+      "missing_slots": 1175,
+      "availability": "available",
       "same_full_window_twice": true,
       "transport_pass": true,
-      "quote_volume_sum": 25282404874.217506
+      "quote_volume_sum": 25285087978.004616
     },
     {
       "dataset": "bithumb_BIGTIME_5m",
       "rows": 752,
       "missing_slots": 112,
+      "availability": "available",
       "same_full_window_twice": true,
       "transport_pass": true,
-      "quote_volume_sum": 25282404874.217506
+      "quote_volume_sum": 25285087978.004616
     },
     {
       "dataset": "bn_perp_CT_1m",
       "rows": 0,
       "missing_slots": 4320,
-      "same_full_window_twice": true,
+      "availability": "N/A",
+      "same_full_window_twice": null,
       "transport_pass": false,
-      "quote_volume_sum": 0
+      "quote_volume_sum": null
     },
     {
       "dataset": "bn_perp_CT_5m",
       "rows": 0,
       "missing_slots": 864,
-      "same_full_window_twice": true,
+      "availability": "N/A",
+      "same_full_window_twice": null,
       "transport_pass": false,
-      "quote_volume_sum": 0
+      "quote_volume_sum": null
     },
     {
       "dataset": "bn_perp_BIGTIME_1m",
       "rows": 0,
       "missing_slots": 4320,
-      "same_full_window_twice": true,
+      "availability": "N/A",
+      "same_full_window_twice": null,
       "transport_pass": false,
-      "quote_volume_sum": 0
+      "quote_volume_sum": null
     },
     {
       "dataset": "bn_perp_BIGTIME_5m",
       "rows": 0,
       "missing_slots": 864,
-      "same_full_window_twice": true,
+      "availability": "N/A",
+      "same_full_window_twice": null,
       "transport_pass": false,
-      "quote_volume_sum": 0
+      "quote_volume_sum": null
     },
     {
       "dataset": "bn_spot_BIGTIME_1m",
       "rows": 0,
       "missing_slots": 4320,
-      "same_full_window_twice": true,
+      "availability": "N/A",
+      "same_full_window_twice": null,
       "transport_pass": false,
-      "quote_volume_sum": 0
+      "quote_volume_sum": null
     },
     {
       "dataset": "bn_spot_BIGTIME_5m",
       "rows": 0,
       "missing_slots": 864,
-      "same_full_window_twice": true,
+      "availability": "N/A",
+      "same_full_window_twice": null,
       "transport_pass": false,
-      "quote_volume_sum": 0
+      "quote_volume_sum": null
     }
   ],
   "market_identity_checks": {
