@@ -2,23 +2,19 @@
   "execution_host": {
     "system": "Linux",
     "github_actions": true,
-    "run_id": "45988446355"
+    "run_id": "45989178162"
   },
-  "start_utc": "2026-11-24T11:10:00+00:00",
-  "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+  "start_utc": "2026-11-24T11:15:00+00:00",
+  "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
   "datasets": [
     {
       "dataset": "upbit_CT_1m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
-      "rows": 2391,
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
+      "rows": 2392,
       "expected_slots": 4320,
-      "missing_slots": 1929,
+      "missing_slots": 1928,
       "missing_utc": [
-        "2026-11-24T11:11:00+00:00",
-        "2026-11-24T11:12:00+00:00",
-        "2026-11-24T11:13:00+00:00",
-        "2026-11-24T11:14:00+00:00",
         "2026-11-24T11:15:00+00:00",
         "2026-11-24T11:21:00+00:00",
         "2026-11-24T11:25:00+00:00",
@@ -1943,11 +1939,14 @@
         "2026-11-27T11:05:00+00:00",
         "2026-11-27T11:07:00+00:00",
         "2026-11-27T11:08:00+00:00",
-        "2026-11-27T11:09:00+00:00"
+        "2026-11-27T11:09:00+00:00",
+        "2026-11-27T11:10:00+00:00",
+        "2026-11-27T11:11:00+00:00",
+        "2026-11-27T11:12:00+00:00"
       ],
-      "quote_volume_sum": 7670197490.247145,
-      "first_utc": "2026-11-24T11:10:00+00:00",
-      "last_utc": "2026-11-27T11:06:00+00:00",
+      "quote_volume_sum": 7674323715.7094145,
+      "first_utc": "2026-11-24T11:16:00+00:00",
+      "last_utc": "2026-11-27T11:14:00+00:00",
       "pages": 12,
       "repeat": {
         "same_closed_response": true,
@@ -1958,8 +1957,8 @@
     },
     {
       "dataset": "upbit_CT_5m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 811,
       "expected_slots": 864,
       "missing_slots": 53,
@@ -2018,9 +2017,9 @@
         "2026-11-27T08:55:00+00:00",
         "2026-11-27T09:25:00+00:00"
       ],
-      "quote_volume_sum": 7670197490.247145,
-      "first_utc": "2026-11-24T11:10:00+00:00",
-      "last_utc": "2026-11-27T11:05:00+00:00",
+      "quote_volume_sum": 7674323715.7094145,
+      "first_utc": "2026-11-24T11:15:00+00:00",
+      "last_utc": "2026-11-27T11:10:00+00:00",
       "pages": 5,
       "repeat": {
         "same_closed_response": true,
@@ -2031,8 +2030,8 @@
     },
     {
       "dataset": "upbit_BIGTIME_1m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 3909,
       "expected_slots": 4320,
       "missing_slots": 411,
@@ -2449,9 +2448,9 @@
         "2026-11-26T23:09:00+00:00",
         "2026-11-26T23:15:00+00:00"
       ],
-      "quote_volume_sum": 190994540938.26883,
-      "first_utc": "2026-11-24T11:10:00+00:00",
-      "last_utc": "2026-11-27T11:09:00+00:00",
+      "quote_volume_sum": 191061928806.15668,
+      "first_utc": "2026-11-24T11:15:00+00:00",
+      "last_utc": "2026-11-27T11:14:00+00:00",
       "pages": 20,
       "repeat": {
         "same_closed_response": true,
@@ -2462,8 +2461,8 @@
     },
     {
       "dataset": "upbit_BIGTIME_5m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 857,
       "expected_slots": 864,
       "missing_slots": 7,
@@ -2476,9 +2475,9 @@
         "2026-11-24T20:25:00+00:00",
         "2026-11-24T21:10:00+00:00"
       ],
-      "quote_volume_sum": 190994540938.26883,
-      "first_utc": "2026-11-24T11:10:00+00:00",
-      "last_utc": "2026-11-27T11:05:00+00:00",
+      "quote_volume_sum": 191061928806.15668,
+      "first_utc": "2026-11-24T11:15:00+00:00",
+      "last_utc": "2026-11-27T11:10:00+00:00",
       "pages": 5,
       "repeat": {
         "same_closed_response": true,
@@ -2489,17 +2488,12 @@
     },
     {
       "dataset": "bithumb_CT_1m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 1503,
       "expected_slots": 4320,
       "missing_slots": 2817,
       "missing_utc": [
-        "2026-11-24T11:10:00+00:00",
-        "2026-11-24T11:11:00+00:00",
-        "2026-11-24T11:12:00+00:00",
-        "2026-11-24T11:13:00+00:00",
-        "2026-11-24T11:14:00+00:00",
         "2026-11-24T11:17:00+00:00",
         "2026-11-24T11:19:00+00:00",
         "2026-11-24T11:20:00+00:00",
@@ -5311,7 +5305,12 @@
         "2026-11-27T11:06:00+00:00",
         "2026-11-27T11:07:00+00:00",
         "2026-11-27T11:08:00+00:00",
-        "2026-11-27T11:09:00+00:00"
+        "2026-11-27T11:09:00+00:00",
+        "2026-11-27T11:10:00+00:00",
+        "2026-11-27T11:11:00+00:00",
+        "2026-11-27T11:12:00+00:00",
+        "2026-11-27T11:13:00+00:00",
+        "2026-11-27T11:14:00+00:00"
       ],
       "quote_volume_sum": 2255673976.2422285,
       "first_utc": "2026-11-24T11:15:00+00:00",
@@ -5326,13 +5325,12 @@
     },
     {
       "dataset": "bithumb_CT_5m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 691,
       "expected_slots": 864,
       "missing_slots": 173,
       "missing_utc": [
-        "2026-11-24T11:10:00+00:00",
         "2026-11-24T11:35:00+00:00",
         "2026-11-24T11:50:00+00:00",
         "2026-11-24T13:20:00+00:00",
@@ -5504,7 +5502,8 @@
         "2026-11-27T09:35:00+00:00",
         "2026-11-27T10:20:00+00:00",
         "2026-11-27T10:35:00+00:00",
-        "2026-11-27T11:05:00+00:00"
+        "2026-11-27T11:05:00+00:00",
+        "2026-11-27T11:10:00+00:00"
       ],
       "quote_volume_sum": 2255673976.2422285,
       "first_utc": "2026-11-24T11:15:00+00:00",
@@ -5519,16 +5518,12 @@
     },
     {
       "dataset": "bithumb_BIGTIME_1m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
-      "rows": 3141,
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
+      "rows": 3145,
       "expected_slots": 4320,
-      "missing_slots": 1179,
+      "missing_slots": 1175,
       "missing_utc": [
-        "2026-11-24T11:11:00+00:00",
-        "2026-11-24T11:12:00+00:00",
-        "2026-11-24T11:13:00+00:00",
-        "2026-11-24T11:14:00+00:00",
         "2026-11-24T11:15:00+00:00",
         "2026-11-24T11:16:00+00:00",
         "2026-11-24T11:17:00+00:00",
@@ -6705,9 +6700,9 @@
         "2026-11-27T09:22:00+00:00",
         "2026-11-27T10:22:00+00:00"
       ],
-      "quote_volume_sum": 25282404874.217506,
-      "first_utc": "2026-11-24T11:10:00+00:00",
-      "last_utc": "2026-11-27T11:09:00+00:00",
+      "quote_volume_sum": 25285087978.004616,
+      "first_utc": "2026-11-24T11:18:00+00:00",
+      "last_utc": "2026-11-27T11:14:00+00:00",
       "pages": 16,
       "repeat": {
         "same_closed_response": true,
@@ -6718,8 +6713,8 @@
     },
     {
       "dataset": "bithumb_BIGTIME_5m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 752,
       "expected_slots": 864,
       "missing_slots": 112,
@@ -6837,9 +6832,9 @@
         "2026-11-26T21:45:00+00:00",
         "2026-11-26T22:40:00+00:00"
       ],
-      "quote_volume_sum": 25282404874.217506,
-      "first_utc": "2026-11-24T11:10:00+00:00",
-      "last_utc": "2026-11-27T11:05:00+00:00",
+      "quote_volume_sum": 25285087978.004616,
+      "first_utc": "2026-11-24T11:15:00+00:00",
+      "last_utc": "2026-11-27T11:10:00+00:00",
       "pages": 4,
       "repeat": {
         "same_closed_response": true,
@@ -6850,17 +6845,12 @@
     },
     {
       "dataset": "bn_perp_CT_1m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 0,
       "expected_slots": 4320,
       "missing_slots": 4320,
       "missing_utc": [
-        "2026-11-24T11:10:00+00:00",
-        "2026-11-24T11:11:00+00:00",
-        "2026-11-24T11:12:00+00:00",
-        "2026-11-24T11:13:00+00:00",
-        "2026-11-24T11:14:00+00:00",
         "2026-11-24T11:15:00+00:00",
         "2026-11-24T11:16:00+00:00",
         "2026-11-24T11:17:00+00:00",
@@ -11175,7 +11165,12 @@
         "2026-11-27T11:06:00+00:00",
         "2026-11-27T11:07:00+00:00",
         "2026-11-27T11:08:00+00:00",
-        "2026-11-27T11:09:00+00:00"
+        "2026-11-27T11:09:00+00:00",
+        "2026-11-27T11:10:00+00:00",
+        "2026-11-27T11:11:00+00:00",
+        "2026-11-27T11:12:00+00:00",
+        "2026-11-27T11:13:00+00:00",
+        "2026-11-27T11:14:00+00:00"
       ],
       "quote_volume_sum": 0,
       "first_utc": null,
@@ -11185,13 +11180,12 @@
     },
     {
       "dataset": "bn_perp_CT_5m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 0,
       "expected_slots": 864,
       "missing_slots": 864,
       "missing_utc": [
-        "2026-11-24T11:10:00+00:00",
         "2026-11-24T11:15:00+00:00",
         "2026-11-24T11:20:00+00:00",
         "2026-11-24T11:25:00+00:00",
@@ -12054,7 +12048,8 @@
         "2026-11-27T10:50:00+00:00",
         "2026-11-27T10:55:00+00:00",
         "2026-11-27T11:00:00+00:00",
-        "2026-11-27T11:05:00+00:00"
+        "2026-11-27T11:05:00+00:00",
+        "2026-11-27T11:10:00+00:00"
       ],
       "quote_volume_sum": 0,
       "first_utc": null,
@@ -12064,17 +12059,12 @@
     },
     {
       "dataset": "bn_perp_BIGTIME_1m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 0,
       "expected_slots": 4320,
       "missing_slots": 4320,
       "missing_utc": [
-        "2026-11-24T11:10:00+00:00",
-        "2026-11-24T11:11:00+00:00",
-        "2026-11-24T11:12:00+00:00",
-        "2026-11-24T11:13:00+00:00",
-        "2026-11-24T11:14:00+00:00",
         "2026-11-24T11:15:00+00:00",
         "2026-11-24T11:16:00+00:00",
         "2026-11-24T11:17:00+00:00",
@@ -16389,7 +16379,12 @@
         "2026-11-27T11:06:00+00:00",
         "2026-11-27T11:07:00+00:00",
         "2026-11-27T11:08:00+00:00",
-        "2026-11-27T11:09:00+00:00"
+        "2026-11-27T11:09:00+00:00",
+        "2026-11-27T11:10:00+00:00",
+        "2026-11-27T11:11:00+00:00",
+        "2026-11-27T11:12:00+00:00",
+        "2026-11-27T11:13:00+00:00",
+        "2026-11-27T11:14:00+00:00"
       ],
       "quote_volume_sum": 0,
       "first_utc": null,
@@ -16399,13 +16394,12 @@
     },
     {
       "dataset": "bn_perp_BIGTIME_5m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 0,
       "expected_slots": 864,
       "missing_slots": 864,
       "missing_utc": [
-        "2026-11-24T11:10:00+00:00",
         "2026-11-24T11:15:00+00:00",
         "2026-11-24T11:20:00+00:00",
         "2026-11-24T11:25:00+00:00",
@@ -17268,7 +17262,8 @@
         "2026-11-27T10:50:00+00:00",
         "2026-11-27T10:55:00+00:00",
         "2026-11-27T11:00:00+00:00",
-        "2026-11-27T11:05:00+00:00"
+        "2026-11-27T11:05:00+00:00",
+        "2026-11-27T11:10:00+00:00"
       ],
       "quote_volume_sum": 0,
       "first_utc": null,
@@ -17278,17 +17273,12 @@
     },
     {
       "dataset": "bn_spot_BIGTIME_1m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 0,
       "expected_slots": 4320,
       "missing_slots": 4320,
       "missing_utc": [
-        "2026-11-24T11:10:00+00:00",
-        "2026-11-24T11:11:00+00:00",
-        "2026-11-24T11:12:00+00:00",
-        "2026-11-24T11:13:00+00:00",
-        "2026-11-24T11:14:00+00:00",
         "2026-11-24T11:15:00+00:00",
         "2026-11-24T11:16:00+00:00",
         "2026-11-24T11:17:00+00:00",
@@ -21603,7 +21593,12 @@
         "2026-11-27T11:06:00+00:00",
         "2026-11-27T11:07:00+00:00",
         "2026-11-27T11:08:00+00:00",
-        "2026-11-27T11:09:00+00:00"
+        "2026-11-27T11:09:00+00:00",
+        "2026-11-27T11:10:00+00:00",
+        "2026-11-27T11:11:00+00:00",
+        "2026-11-27T11:12:00+00:00",
+        "2026-11-27T11:13:00+00:00",
+        "2026-11-27T11:14:00+00:00"
       ],
       "quote_volume_sum": 0,
       "first_utc": null,
@@ -21613,13 +21608,12 @@
     },
     {
       "dataset": "bn_spot_BIGTIME_5m",
-      "start_utc": "2026-11-24T11:10:00+00:00",
-      "end_exclusive_utc": "2026-11-27T11:10:00+00:00",
+      "start_utc": "2026-11-24T11:15:00+00:00",
+      "end_exclusive_utc": "2026-11-27T11:15:00+00:00",
       "rows": 0,
       "expected_slots": 864,
       "missing_slots": 864,
       "missing_utc": [
-        "2026-11-24T11:10:00+00:00",
         "2026-11-24T11:15:00+00:00",
         "2026-11-24T11:20:00+00:00",
         "2026-11-24T11:25:00+00:00",
@@ -22482,7 +22476,8 @@
         "2026-11-27T10:50:00+00:00",
         "2026-11-27T10:55:00+00:00",
         "2026-11-27T11:00:00+00:00",
-        "2026-11-27T11:05:00+00:00"
+        "2026-11-27T11:05:00+00:00",
+        "2026-11-27T11:10:00+00:00"
       ],
       "quote_volume_sum": 0,
       "first_utc": null,
@@ -22499,14 +22494,14 @@
         {
           "market": "KRW-CT",
           "trade_date_utc": "2026-11-27",
-          "trade_time_utc": "11:06:51",
-          "timestamp": 1795777611204,
-          "trade_price": 183.0,
-          "trade_volume": 3000.0,
+          "trade_time_utc": "11:17:26",
+          "timestamp": 1795778246228,
+          "trade_price": 184.0,
+          "trade_volume": 53.19148936,
           "prev_closing_price": 181.0,
-          "change_price": 2.0,
-          "ask_bid": "ASK",
-          "sequential_id": 17957776112040000
+          "change_price": 3.0,
+          "ask_bid": "BID",
+          "sequential_id": 17957782462280000
         }
       ]
     },
@@ -22516,21 +22511,21 @@
       "sample": [
         {
           "market": "KRW-CT",
-          "timestamp": 1795777938244,
-          "total_ask_size": 2105769.29595375,
-          "total_bid_size": 1976738.2924081,
+          "timestamp": 1795778246844,
+          "total_ask_size": 2096564.89890936,
+          "total_bid_size": 1980963.6186112,
           "orderbook_units": [
             {
               "bid_price": 183,
-              "bid_size": 96507.22774666,
+              "bid_size": 88340.47427661,
               "ask_price": 184,
-              "ask_size": 168661.30650182
+              "ask_size": 159186.63916025
             },
             {
               "bid_price": 182,
-              "bid_size": 179376.09473432,
+              "bid_size": 179657.44012644,
               "ask_price": 185,
-              "ask_size": 207927.2277299
+              "ask_size": 208197.49800017
             },
             {
               "bid_price": 181,
@@ -22542,7 +22537,7 @@
               "bid_price": 180,
               "bid_size": 65445.30918384,
               "ask_price": 187,
-              "ask_size": 52330.67700936
+              "ask_size": 52330.67703627
             },
             {
               "bid_price": 179,
@@ -22552,7 +22547,7 @@
             },
             {
               "bid_price": 178,
-              "bid_size": 56125.08221701,
+              "bid_size": 58917.78698821,
               "ask_price": 189,
               "ask_size": 114908.86004075
             },
@@ -22582,7 +22577,7 @@
             },
             {
               "bid_price": 173,
-              "bid_size": 32369.94219652,
+              "bid_size": 41687.97170635,
               "ask_price": 194.0,
               "ask_size": 39725.45466696
             },
@@ -22712,14 +22707,14 @@
         {
           "market": "KRW-BIGTIME",
           "trade_date_utc": "2026-11-27",
-          "trade_time_utc": "11:12:30",
-          "timestamp": 1795777950112,
-          "trade_price": 8.15,
-          "trade_volume": 73782.67247808,
+          "trade_time_utc": "11:17:43",
+          "timestamp": 1795778263634,
+          "trade_price": 8.2,
+          "trade_volume": 10000.0,
           "prev_closing_price": 7.93,
-          "change_price": 0.22,
-          "ask_bid": "ASK",
-          "sequential_id": 17957779501120003
+          "change_price": 0.27,
+          "ask_bid": "BID",
+          "sequential_id": 17957782636340000
         }
       ]
     },
@@ -22729,189 +22724,189 @@
       "sample": [
         {
           "market": "KRW-BIGTIME",
-          "timestamp": 1795777951844,
-          "total_ask_size": 11004782.38837447,
-          "total_bid_size": 17367771.20469668,
+          "timestamp": 1795778265945,
+          "total_ask_size": 11484619.10787248,
+          "total_bid_size": 15280824.70718825,
           "orderbook_units": [
             {
+              "bid_price": 8.19,
+              "bid_size": 151658.80614655,
+              "ask_price": 8.2,
+              "ask_size": 64748.00694862
+            },
+            {
+              "bid_price": 8.18,
+              "bid_size": 533942.48397727,
+              "ask_price": 8.21,
+              "ask_size": 175950.00680151
+            },
+            {
+              "bid_price": 8.17,
+              "bid_size": 392665.39680833,
+              "ask_price": 8.22,
+              "ask_size": 389345.27339803
+            },
+            {
+              "bid_price": 8.16,
+              "bid_size": 3672026.12939642,
+              "ask_price": 8.23,
+              "ask_size": 475211.48226576
+            },
+            {
               "bid_price": 8.15,
-              "bid_size": 841299.54658775,
-              "ask_price": 8.17,
-              "ask_size": 139988.26870955
+              "bid_size": 1375305.25579498,
+              "ask_price": 8.24,
+              "ask_size": 811197.50516911
             },
             {
               "bid_price": 8.14,
-              "bid_size": 655078.59009088,
-              "ask_price": 8.19,
-              "ask_size": 493394.65711511
+              "bid_size": 1142340.58956043,
+              "ask_price": 8.25,
+              "ask_size": 3792145.68466696
             },
             {
               "bid_price": 8.13,
-              "bid_size": 502476.5227552,
-              "ask_price": 8.2,
-              "ask_size": 1152580.16991471
-            },
-            {
-              "bid_price": 8.12,
-              "bid_size": 3919324.98826923,
-              "ask_price": 8.21,
-              "ask_size": 568479.28186813
-            },
-            {
-              "bid_price": 8.11,
-              "bid_size": 711234.97817983,
-              "ask_price": 8.22,
-              "ask_size": 4070634.08380286
-            },
-            {
-              "bid_price": 8.1,
-              "bid_size": 2251920.22557461,
-              "ask_price": 8.23,
-              "ask_size": 393438.64389981
-            },
-            {
-              "bid_price": 8.09,
-              "bid_size": 212053.73784428,
-              "ask_price": 8.24,
-              "ask_size": 456904.35831596
-            },
-            {
-              "bid_price": 8.08,
-              "bid_size": 566270.66144535,
-              "ask_price": 8.25,
-              "ask_size": 335545.13501498
-            },
-            {
-              "bid_price": 8.07,
-              "bid_size": 10522.24907063,
+              "bid_size": 215778.49077489,
               "ask_price": 8.26,
               "ask_size": 335545.13501498
             },
             {
-              "bid_price": 8.06,
-              "bid_size": 17448.47179386,
+              "bid_price": 8.12,
+              "bid_size": 243122.34653963,
               "ask_price": 8.27,
               "ask_size": 335545.13501498
             },
             {
-              "bid_price": 8.05,
-              "bid_size": 349209.73128826,
+              "bid_price": 8.11,
+              "bid_size": 739.82737361,
               "ask_price": 8.28,
               "ask_size": 335545.13501498
             },
             {
-              "bid_price": 8.04,
-              "bid_size": 515994.98758082,
+              "bid_price": 8.1,
+              "bid_size": 1105112.49808427,
               "ask_price": 8.3,
-              "ask_size": 43591.86181041
+              "ask_size": 780968.18056563
             },
             {
-              "bid_price": 8.03,
-              "bid_size": 67028.83561643,
+              "bid_price": 8.09,
+              "bid_size": 54917.58343633,
               "ask_price": 8.31,
-              "ask_size": 268121.46972495
+              "ask_size": 188016.82046615
             },
             {
-              "bid_price": 8.02,
-              "bid_size": 41240.0,
+              "bid_price": 8.08,
+              "bid_size": 201943.65498986,
               "ask_price": 8.32,
-              "ask_size": 10932.38804321
+              "ask_size": 499636.70679843
             },
             {
-              "bid_price": 8.01,
-              "bid_size": 824155.79338551,
+              "bid_price": 8.07,
+              "bid_size": 10522.24907063,
               "ask_price": 8.33,
               "ask_size": 154687.44810653
             },
             {
-              "bid_price": 8,
-              "bid_size": 1843251.77429517,
+              "bid_price": 8.06,
+              "bid_size": 17448.47179386,
               "ask_price": 8.35,
-              "ask_size": 183572.01065811
+              "ask_size": 188644.00692015
             },
             {
-              "bid_price": 7.99,
-              "bid_size": 137744.28035043,
+              "bid_price": 8.05,
+              "bid_size": 13664.59627328,
               "ask_price": 8.37,
               "ask_size": 2389.48626046
             },
             {
-              "bid_price": 7.98,
-              "bid_size": 126837.73809523,
+              "bid_price": 8.04,
+              "bid_size": 515994.98758082,
               "ask_price": 8.39,
-              "ask_size": 8947.46841562
+              "ask_size": 11483.46654664
             },
             {
-              "bid_price": 7.97,
-              "bid_size": 125470.5144291,
+              "bid_price": 8.03,
+              "bid_size": 67028.83561643,
               "ask_price": 8.4,
               "ask_size": 29403.47329295
             },
             {
-              "bid_price": 7.96,
-              "bid_size": 174484.55740243,
+              "bid_price": 8.02,
+              "bid_size": 41240.0,
               "ask_price": 8.41,
-              "ask_size": 9242.37704388
+              "ask_size": 19386.36956797
             },
             {
-              "bid_price": 7.95,
-              "bid_size": 307457.75917689,
+              "bid_price": 8.01,
+              "bid_size": 824155.79338551,
               "ask_price": 8.42,
               "ask_size": 3148.29853769
             },
             {
-              "bid_price": 7.94,
-              "bid_size": 18891.68765742,
+              "bid_price": 8,
+              "bid_size": 983655.19758353,
               "ask_price": 8.43,
               "ask_size": 4825.34759571
             },
             {
-              "bid_price": 7.93,
-              "bid_size": 1217671.99426137,
+              "bid_price": 7.99,
+              "bid_size": 137744.28035043,
               "ask_price": 8.44,
               "ask_size": 158022.38191041
             },
             {
-              "bid_price": 7.92,
-              "bid_size": 17171.68405578,
+              "bid_price": 7.98,
+              "bid_size": 133103.40225563,
               "ask_price": 8.45,
-              "ask_size": 90268.79800989
+              "ask_size": 92804.79614092
             },
             {
-              "bid_price": 7.91,
-              "bid_size": 328341.52799497,
+              "bid_price": 7.97,
+              "bid_size": 125470.5144291,
               "ask_price": 8.46,
               "ask_size": 637.53045388
             },
             {
-              "bid_price": 7.9,
-              "bid_size": 1276004.94423673,
+              "bid_price": 7.96,
+              "bid_size": 162120.83938747,
               "ask_price": 8.47,
               "ask_size": 850.04060517
             },
             {
-              "bid_price": 7.88,
-              "bid_size": 41269.03553299,
+              "bid_price": 7.95,
+              "bid_size": 323283.44839994,
               "ask_price": 8.48,
               "ask_size": 637.53045389
             },
             {
-              "bid_price": 7.87,
-              "bid_size": 4324.26734536,
+              "bid_price": 7.94,
+              "bid_size": 12594.45843828,
               "ask_price": 8.49,
-              "ask_size": 35016.39960151
+              "ask_size": 244136.71738828
             },
             {
-              "bid_price": 7.86,
-              "bid_size": 2351.87749636,
+              "bid_price": 7.93,
+              "bid_size": 1217671.99426137,
               "ask_price": 8.5,
               "ask_size": 1372739.06355607
             },
             {
-              "bid_price": 7.84,
-              "bid_size": 261238.24288381,
+              "bid_price": 7.92,
+              "bid_size": 1226.1032477,
               "ask_price": 8.51,
               "ask_size": 10149.01060808
+            },
+            {
+              "bid_price": 7.91,
+              "bid_size": 328341.52799497,
+              "ask_price": 8.53,
+              "ask_size": 470526.68410554
+            },
+            {
+              "bid_price": 7.9,
+              "bid_size": 1276004.94423673,
+              "ask_price": 8.55,
+              "ask_size": 536292.383697
             }
           ],
           "level": 0
@@ -22925,14 +22920,14 @@
         {
           "market": "KRW-CT",
           "trade_date_utc": "2026-11-27",
-          "trade_time_utc": "11:01:17",
-          "timestamp": 1795777277021,
+          "trade_time_utc": "11:17:06",
+          "timestamp": 1795778226187,
           "trade_price": 181,
-          "trade_volume": 122.0203,
+          "trade_volume": 290.12283654,
           "prev_closing_price": 174,
           "change_price": 7,
           "ask_bid": "ASK",
-          "sequential_id": 17957772770210000
+          "sequential_id": 17957782261870000
         }
       ]
     },
@@ -22942,21 +22937,21 @@
       "sample": [
         {
           "market": "KRW-CT",
-          "timestamp": 1795777947609,
-          "total_ask_size": 655000.1604,
-          "total_bid_size": 569652.6924,
+          "timestamp": 1795778267055,
+          "total_ask_size": 655879.7261,
+          "total_bid_size": 573479.5973,
           "orderbook_units": [
             {
               "ask_price": 182,
               "bid_price": 181,
-              "ask_size": 180224.0982,
-              "bid_size": 153509.6135
+              "ask_size": 168412.6606,
+              "bid_size": 153454.4288
             },
             {
               "ask_price": 183,
               "bid_price": 180,
-              "ask_size": 165199.3042,
-              "bid_size": 189896.2448
+              "ask_size": 177890.3075,
+              "bid_size": 189283.6986
             },
             {
               "ask_price": 184,
@@ -22968,13 +22963,13 @@
               "ask_price": 185,
               "bid_price": 178,
               "ask_size": 1639.4028,
-              "bid_size": 4766.6321
+              "bid_size": 1831.2388
             },
             {
               "ask_price": 186,
               "bid_price": 177,
               "ask_size": 677.8467,
-              "bid_size": 5710.6062
+              "bid_size": 8662.5836
             },
             {
               "ask_price": 187,
@@ -22986,7 +22981,7 @@
               "ask_price": 188,
               "bid_price": 175,
               "ask_size": 1013.8119,
-              "bid_size": 114.2857
+              "bid_size": 3345.6644
             },
             {
               "ask_price": 189,
@@ -23008,123 +23003,123 @@
             },
             {
               "ask_price": 192,
-              "bid_price": 171,
-              "ask_size": 1328.1348,
-              "bid_size": 292.3976
-            },
-            {
-              "ask_price": 193,
               "bid_price": 170,
-              "ask_size": 8621.7592,
+              "ask_size": 1328.1348,
               "bid_size": 15085.5643
             },
             {
-              "ask_price": 194,
+              "ask_price": 193,
               "bid_price": 168,
-              "ask_size": 7128.5206,
+              "ask_size": 8621.7592,
               "bid_size": 595.238
             },
             {
-              "ask_price": 195,
+              "ask_price": 194,
               "bid_price": 167,
-              "ask_size": 3950.744,
-              "bid_size": 119.7604
+              "ask_size": 7128.5206,
+              "bid_size": 419.1616
             },
             {
-              "ask_price": 196,
+              "ask_price": 195,
               "bid_price": 164,
-              "ask_size": 6599.9531,
+              "ask_size": 3950.744,
               "bid_size": 50
             },
             {
-              "ask_price": 197,
+              "ask_price": 196,
               "bid_price": 162,
-              "ask_size": 6752.161,
+              "ask_size": 6599.9531,
               "bid_size": 3703.7037
             },
             {
-              "ask_price": 198,
+              "ask_price": 197,
               "bid_price": 160,
-              "ask_size": 2680.8101,
+              "ask_size": 6752.161,
               "bid_size": 2383.3727
             },
             {
-              "ask_price": 199,
+              "ask_price": 198,
               "bid_price": 154,
-              "ask_size": 9279.3491,
+              "ask_size": 2680.8101,
               "bid_size": 3934.1038
             },
             {
-              "ask_price": 200,
+              "ask_price": 199,
               "bid_price": 153,
-              "ask_size": 19625.8338,
+              "ask_size": 9279.3491,
               "bid_size": 65.3594
             },
             {
-              "ask_price": 201,
+              "ask_price": 200,
               "bid_price": 150,
-              "ask_size": 19063.1212,
+              "ask_size": 19625.8338,
               "bid_size": 3954.4513
             },
             {
-              "ask_price": 202,
+              "ask_price": 201,
               "bid_price": 147,
-              "ask_size": 4961.3978,
+              "ask_size": 19063.1212,
               "bid_size": 40
             },
             {
-              "ask_price": 203,
+              "ask_price": 202,
               "bid_price": 145,
-              "ask_size": 350,
+              "ask_size": 4961.3978,
               "bid_size": 47.6739
             },
             {
-              "ask_price": 204,
+              "ask_price": 203,
               "bid_price": 144,
-              "ask_size": 9785.8312,
+              "ask_size": 350,
               "bid_size": 694.4444
             },
             {
-              "ask_price": 205,
+              "ask_price": 204,
               "bid_price": 143,
-              "ask_size": 350,
+              "ask_size": 9785.8312,
               "bid_size": 176.93
             },
             {
-              "ask_price": 206,
+              "ask_price": 205,
               "bid_price": 140,
-              "ask_size": 861.8592,
+              "ask_size": 350,
               "bid_size": 3502.3809
             },
             {
-              "ask_price": 207,
+              "ask_price": 206,
               "bid_price": 137,
-              "ask_size": 350,
+              "ask_size": 861.8592,
               "bid_size": 4014.5985
             },
             {
-              "ask_price": 208,
+              "ask_price": 207,
               "bid_price": 135,
-              "ask_size": 2423.0788,
+              "ask_size": 350,
               "bid_size": 74.0814
             },
             {
-              "ask_price": 209,
+              "ask_price": 208,
               "bid_price": 133,
-              "ask_size": 350,
+              "ask_size": 2423.0788,
               "bid_size": 2481.203
             },
             {
-              "ask_price": 210,
+              "ask_price": 209,
               "bid_price": 127,
-              "ask_size": 4979.1717,
+              "ask_size": 350,
               "bid_size": 218.2913
             },
             {
-              "ask_price": 211,
+              "ask_price": 210,
               "bid_price": 125,
-              "ask_size": 2001.7292,
+              "ask_size": 4979.1717,
               "bid_size": 120.3199
+            },
+            {
+              "ask_price": 211,
+              "bid_price": 121,
+              "ask_size": 2001.7292,
+              "bid_size": 1239.6694
             }
           ]
         }
@@ -23137,14 +23132,14 @@
         {
           "market": "KRW-BIGTIME",
           "trade_date_utc": "2026-11-27",
-          "trade_time_utc": "11:12:34",
-          "timestamp": 1795777954378,
-          "trade_price": 8.141,
-          "trade_volume": 638.74216926,
+          "trade_time_utc": "11:16:26",
+          "timestamp": 1795778186739,
+          "trade_price": 8.183,
+          "trade_volume": 2304.28083224,
           "prev_closing_price": 7.692,
-          "change_price": 0.449,
+          "change_price": 0.491,
           "ask_bid": "BID",
-          "sequential_id": 17957779543780000
+          "sequential_id": 17957781867390000
         }
       ]
     },
@@ -23154,189 +23149,189 @@
       "sample": [
         {
           "market": "KRW-BIGTIME",
-          "timestamp": 1795777955893,
-          "total_ask_size": 4230374.4492,
-          "total_bid_size": 3474627.4754,
+          "timestamp": 1795778269862,
+          "total_ask_size": 5493079.7422,
+          "total_bid_size": 1939467.9455,
           "orderbook_units": [
             {
-              "ask_price": 8.141,
-              "bid_price": 8.131,
-              "ask_size": 4286.7001,
-              "bid_size": 639.5277
-            },
-            {
-              "ask_price": 8.142,
-              "bid_price": 8.125,
-              "ask_size": 10000,
-              "bid_size": 12902.3594
-            },
-            {
-              "ask_price": 8.143,
-              "bid_price": 8.121,
-              "ask_size": 10000,
-              "bid_size": 5857.981
-            },
-            {
-              "ask_price": 8.144,
-              "bid_price": 8.12,
-              "ask_size": 10000,
-              "bid_size": 818.1639
-            },
-            {
-              "ask_price": 8.145,
-              "bid_price": 8.115,
-              "ask_size": 11652.8321,
-              "bid_size": 5857.981
-            },
-            {
-              "ask_price": 8.146,
-              "bid_price": 8.109,
-              "ask_size": 10000,
-              "bid_size": 910.3151
-            },
-            {
-              "ask_price": 8.147,
-              "bid_price": 8.108,
-              "ask_size": 11652.8321,
-              "bid_size": 233572.858
-            },
-            {
-              "ask_price": 8.148,
-              "bid_price": 8.106,
-              "ask_size": 10000,
-              "bid_size": 43620
-            },
-            {
-              "ask_price": 8.149,
-              "bid_price": 8.105,
-              "ask_size": 298327.438,
-              "bid_size": 43620
-            },
-            {
-              "ask_price": 8.15,
-              "bid_price": 8.104,
-              "ask_size": 10000,
-              "bid_size": 44632.1044
-            },
-            {
-              "ask_price": 8.152,
-              "bid_price": 8.103,
-              "ask_size": 10000,
-              "bid_size": 480380.4585
-            },
-            {
-              "ask_price": 8.16,
-              "bid_price": 8.101,
-              "ask_size": 466414.3843,
-              "bid_size": 265669.4413
-            },
-            {
-              "ask_price": 8.162,
-              "bid_price": 8.1,
-              "ask_size": 12402.6502,
-              "bid_size": 740.7407
-            },
-            {
-              "ask_price": 8.165,
-              "bid_price": 8.099,
-              "ask_size": 2803019.1661,
-              "bid_size": 45335.1372
-            },
-            {
-              "ask_price": 8.166,
-              "bid_price": 8.08,
-              "ask_size": 10000,
-              "bid_size": 13613.8612
-            },
-            {
-              "ask_price": 8.167,
-              "bid_price": 8.079,
-              "ask_size": 16496.5247,
-              "bid_size": 432330.7994
-            },
-            {
-              "ask_price": 8.168,
-              "bid_price": 8.068,
-              "ask_size": 10000,
-              "bid_size": 123946.4551
-            },
-            {
-              "ask_price": 8.169,
-              "bid_price": 8.06,
-              "ask_size": 10000,
-              "bid_size": 128488.8275
-            },
-            {
-              "ask_price": 8.17,
-              "bid_price": 8.056,
-              "ask_size": 10000,
-              "bid_size": 3651.916
-            },
-            {
-              "ask_price": 8.171,
-              "bid_price": 8.02,
-              "ask_size": 10000,
-              "bid_size": 9335.4355
-            },
-            {
-              "ask_price": 8.172,
-              "bid_price": 8.019,
-              "ask_size": 298132.79,
-              "bid_size": 748.2229
-            },
-            {
-              "ask_price": 8.173,
-              "bid_price": 8,
-              "ask_size": 10000,
-              "bid_size": 125000
-            },
-            {
-              "ask_price": 8.174,
-              "bid_price": 7.98,
-              "ask_size": 10000,
-              "bid_size": 17390.8937
-            },
-            {
-              "ask_price": 8.175,
-              "bid_price": 7.972,
-              "ask_size": 10000,
-              "bid_size": 68991.4701
-            },
-            {
-              "ask_price": 8.176,
-              "bid_price": 7.956,
-              "ask_size": 10000,
-              "bid_size": 69130.2161
-            },
-            {
-              "ask_price": 8.177,
-              "bid_price": 7.946,
-              "ask_size": 10000,
-              "bid_size": 47800
-            },
-            {
-              "ask_price": 8.178,
-              "bid_price": 7.938,
-              "ask_size": 10000,
-              "bid_size": 755.8578
-            },
-            {
-              "ask_price": 8.179,
-              "bid_price": 7.93,
-              "ask_size": 65435.3544,
-              "bid_size": 1162935.7878
-            },
-            {
               "ask_price": 8.18,
-              "bid_price": 7.92,
-              "ask_size": 52553.7772,
-              "bid_size": 48000
+              "bid_price": 8.161,
+              "ask_size": 301561.557,
+              "bid_size": 1859.0774
             },
             {
               "ask_price": 8.181,
-              "bid_price": 7.905,
+              "bid_price": 8.16,
+              "ask_size": 1847.27,
+              "bid_size": 637.2549
+            },
+            {
+              "ask_price": 8.182,
+              "bid_price": 8.153,
+              "ask_size": 2309.0875,
+              "bid_size": 637.802
+            },
+            {
+              "ask_price": 8.183,
+              "bid_price": 8.151,
+              "ask_size": 173402.5504,
+              "bid_size": 637.9585
+            },
+            {
+              "ask_price": 8.184,
+              "bid_price": 8.148,
               "ask_size": 10000,
-              "bid_size": 37950.6641
+              "bid_size": 638.1934
+            },
+            {
+              "ask_price": 8.185,
+              "bid_price": 8.14,
+              "ask_size": 10000,
+              "bid_size": 2602.6248
+            },
+            {
+              "ask_price": 8.186,
+              "bid_price": 8.139,
+              "ask_size": 10000,
+              "bid_size": 43620
+            },
+            {
+              "ask_price": 8.189,
+              "bid_price": 8.138,
+              "ask_size": 10000,
+              "bid_size": 710.2748
+            },
+            {
+              "ask_price": 8.19,
+              "bid_price": 8.137,
+              "ask_size": 297110.792,
+              "bid_size": 43620
+            },
+            {
+              "ask_price": 8.193,
+              "bid_price": 8.136,
+              "ask_size": 10000,
+              "bid_size": 220931.6638
+            },
+            {
+              "ask_price": 8.195,
+              "bid_price": 8.133,
+              "ask_size": 10000,
+              "bid_size": 639.3704
+            },
+            {
+              "ask_price": 8.197,
+              "bid_price": 8.131,
+              "ask_size": 10000,
+              "bid_size": 257859.8984
+            },
+            {
+              "ask_price": 8.198,
+              "bid_price": 8.13,
+              "ask_size": 10000,
+              "bid_size": 258473.5507
+            },
+            {
+              "ask_price": 8.199,
+              "bid_price": 8.128,
+              "ask_size": 10000,
+              "bid_size": 233572.858
+            },
+            {
+              "ask_price": 8.2,
+              "bid_price": 8.122,
+              "ask_size": 10000,
+              "bid_size": 260622.6202
+            },
+            {
+              "ask_price": 8.201,
+              "bid_price": 8.121,
+              "ask_size": 3073527.6814,
+              "bid_size": 7075.0835
+            },
+            {
+              "ask_price": 8.202,
+              "bid_price": 8.119,
+              "ask_size": 10000,
+              "bid_size": 158993.3696
+            },
+            {
+              "ask_price": 8.203,
+              "bid_price": 8.115,
+              "ask_size": 10000,
+              "bid_size": 5857.981
+            },
+            {
+              "ask_price": 8.204,
+              "bid_price": 8.101,
+              "ask_size": 10000,
+              "bid_size": 19767.1479
+            },
+            {
+              "ask_price": 8.205,
+              "bid_price": 8.1,
+              "ask_size": 10000,
+              "bid_size": 20510.3291
+            },
+            {
+              "ask_price": 8.209,
+              "bid_price": 8.099,
+              "ask_size": 35640.2107,
+              "bid_size": 45186.1702
+            },
+            {
+              "ask_price": 8.212,
+              "bid_price": 8.08,
+              "ask_size": 298522.35,
+              "bid_size": 13613.8612
+            },
+            {
+              "ask_price": 8.213,
+              "bid_price": 8.079,
+              "ask_size": 10000,
+              "bid_size": 5857.981
+            },
+            {
+              "ask_price": 8.214,
+              "bid_price": 8.069,
+              "ask_size": 10000,
+              "bid_size": 3906.5599
+            },
+            {
+              "ask_price": 8.217,
+              "bid_price": 8.068,
+              "ask_size": 42050.2634,
+              "bid_size": 123946.4551
+            },
+            {
+              "ask_price": 8.219,
+              "bid_price": 8.02,
+              "ask_size": 79676.2026,
+              "bid_size": 9335.4355
+            },
+            {
+              "ask_price": 8.224,
+              "bid_price": 8.019,
+              "ask_size": 10000,
+              "bid_size": 2720.4093
+            },
+            {
+              "ask_price": 8.225,
+              "bid_price": 8.011,
+              "ask_size": 30067.2164,
+              "bid_size": 68655.5985
+            },
+            {
+              "ask_price": 8.226,
+              "bid_price": 8,
+              "ask_size": 589690.2864,
+              "bid_size": 125000
+            },
+            {
+              "ask_price": 8.227,
+              "bid_price": 7.994,
+              "ask_size": 397674.2744,
+              "bid_size": 1978.4164
             }
           ]
         }
