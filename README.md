@@ -22,4 +22,4 @@ Actions → Manual Korean public market acceptance → Run workflow；或通过�
 
 读取时核对run_id和end_exclusive_utc；公开地址可能有CDN缓存，需要准确复现时使用具体提交SHA的网址。每次运行是历史快照，不是持续实时服务。USDT不等于USD；本路径不提供已验收的美元换算或因果归因。
 
-当前对话的云端网页工具已实际读取验收JSON及1m/5m文件。原普通ChatGPT对话及原自动监控任务尚未验收，不声称已接入。本项目未修改原V1.1任务、名单、模块、阈值或频率。
+当前对话的云端网页工具已实际读取验收JSON及1m/5m文件。原普通ChatGPT对话已实际测试：raw和Blob网页共9次读取均Cache miss，网页路径未通过；不能把当前Work读取成功当作普通对话通过。原自动监控任务尚未验收，不声称已接入。本项目未修改原V1.1任务、名单、模块、阈值或频率。
