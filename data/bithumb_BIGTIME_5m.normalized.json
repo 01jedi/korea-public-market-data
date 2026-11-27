@@ -1,31 +1,5 @@
 [
   {
-    "time_utc": "2026-11-24T11:10:00+00:00",
-    "timestamp_ms": 1795518600000,
-    "open": 5.516,
-    "high": 5.516,
-    "low": 5.516,
-    "close": 5.516,
-    "base_volume": 424987.388,
-    "quote_volume": 2344230.432208,
-    "quote": "KRW",
-    "source_last_trade_ms": 1795518629068,
-    "taker_buy_quote": null,
-    "raw": {
-      "market": "KRW-BIGTIME",
-      "candle_date_time_utc": "2026-11-24T11:10:00",
-      "candle_date_time_kst": "2026-11-24T20:10:00",
-      "opening_price": 5.516,
-      "high_price": 5.516,
-      "low_price": 5.516,
-      "trade_price": 5.516,
-      "timestamp": 1795518629068,
-      "candle_acc_trade_price": 2344230.432208,
-      "candle_acc_trade_volume": 424987.388,
-      "unit": 5
-    }
-  },
-  {
     "time_utc": "2026-11-24T11:15:00+00:00",
     "timestamp_ms": 1795518900000,
     "open": 5.443,
@@ -19548,6 +19522,32 @@
       "timestamp": 1795777781075,
       "candle_acc_trade_price": 15445859.369130306,
       "candle_acc_trade_volume": 1894667.63261455,
+      "unit": 5
+    }
+  },
+  {
+    "time_utc": "2026-11-27T11:10:00+00:00",
+    "timestamp_ms": 1795777800000,
+    "open": 8.166,
+    "high": 8.173,
+    "low": 8.1,
+    "close": 8.168,
+    "base_volume": 617820.3696831181,
+    "quote_volume": 5027334.2193204565,
+    "quote": "KRW",
+    "source_last_trade_ms": 1795778098347,
+    "taker_buy_quote": null,
+    "raw": {
+      "market": "KRW-BIGTIME",
+      "candle_date_time_utc": "2026-11-27T11:10:00",
+      "candle_date_time_kst": "2026-11-27T20:10:00",
+      "opening_price": 8.166,
+      "high_price": 8.173,
+      "low_price": 8.1,
+      "trade_price": 8.168,
+      "timestamp": 1795778098347,
+      "candle_acc_trade_price": 5027334.2193204565,
+      "candle_acc_trade_volume": 617820.3696831181,
       "unit": 5
     }
   }
